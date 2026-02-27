@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Chat</title>
+  <title>ChatWeb</title>
 </head>
 <body>
   <h2>Bienvenido al chat</h2>
