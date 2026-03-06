@@ -11,9 +11,8 @@ class MessageController extends Controller
 
     public function index()
     {
-        $messages = Message::all();
+        $messages = Message::orderBy('created_at','asc')->get();
 
-        // DESCIFRAR MENSAJES
         foreach ($messages as $mensaje) {
             $mensaje->mensaje = Crypt::decryptString($mensaje->mensaje);
         }

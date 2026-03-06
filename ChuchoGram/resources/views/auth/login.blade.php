@@ -2,6 +2,13 @@
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
+    <div sstyle="width:400px; margin:auto; margin-top:100px;">
+        <a href="{{ route('register') }}" 
+        style="padding:8px 15px; background:#3490dc; color:white; text-decoration:none; border-radius:5px;">
+        Registrarse
+        </a>
+    </div>
+
     <form method="POST" action="{{ route('login') }}">
         @csrf
 
