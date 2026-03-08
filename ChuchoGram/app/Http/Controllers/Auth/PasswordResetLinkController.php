@@ -23,22 +23,38 @@ class PasswordResetLinkController extends Controller
      *
      * @throws \Illuminate\Validation\ValidationException
      */
+
     public function store(Request $request): RedirectResponse
     {
         $request->validate([
             'email' => ['required', 'email'],
+        ], [
+            'email.required' => 'El correo es obligatorio.',
+            'email.email'    => 'Ingresa un correo válido.',
         ]);
 
-        // We will send the password reset link to this user. Once we have attempted
-        // to send the link, we will examine the response then see the message we
-        // need to show to the user. Finally, we'll send out a proper response.
-        $status = Password::sendResetLink(
-            $request->only('email')
-        );
+        $user = \App\Models\User::where('email', $request->email)->first();
 
-        return $status == Password::RESET_LINK_SENT
-                    ? back()->with('status', __($status))
-                    : back()->withInput($request->only('email'))
-                        ->withErrors(['email' => __($status)]);
+        if (!$user) {
+            return back()->withErrors(['email' => 'No encontramos una cuenta con ese correo.']);
+        }
+
+        // Generar nueva contraseña aleatoria
+        $nuevaPassword = \Illuminate\Support\Str::random(6) . rand(10, 99) . '!';
+
+        // Guardar en la BD
+        $user->update([
+            'password' => \Illuminate\Support\Facades\Hash::make($nuevaPassword),
+        ]);
+
+        // Enviar por correo
+        try {
+            \Illuminate\Support\Facades\Mail::to($user->email)
+                ->send(new \App\Mail\PasswordGenerada($user, $nuevaPassword));
+        } catch (\Exception $e) {
+            \Illuminate\Support\Facades\Log::error('Error enviando correo: ' . $e->getMessage());
+        }
+
+        return back()->with('status', '¡Listo! Revisa tu correo con tu nueva contraseña.');
     }
 }
