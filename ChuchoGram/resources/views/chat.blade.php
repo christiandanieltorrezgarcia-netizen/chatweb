@@ -154,6 +154,7 @@
 const area = document.getElementById('messagesArea');
 const input = document.getElementById('msgInput');
 const csrf = document.querySelector('meta[name="csrf-token"]').content;
+const ME = {{ auth()->id() }};
 
 // Scroll to bottom
 area.scrollTop = area.scrollHeight;
@@ -181,25 +182,55 @@ async function sendMessage() {
     input.style.height = 'auto';
 
     try {
-        const res = await fetch('/chat', {
+        await fetch('/chat', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json', 'X-CSRF-TOKEN': csrf },
             body: JSON.stringify({ mensaje: text })
         });
-        // Recargar mensajes nuevos con polling
+        // El polling lo mostrará en máximo 1 segundo
     } catch(e) { console.error(e); }
 }
 
-// Polling cada 3 segundos para mensajes nuevos
-let lastCount = {{ count($messages) }};
+// Agregar burbuja al DOM
+function appendBubble(sender, texto, isOut) {
+    // Quitar mensaje de "no hay mensajes" si existe
+    const empty = area.querySelector('div[style*="text-align:center"]');
+    if (empty) empty.remove();
+
+    const wrap = document.createElement('div');
+    wrap.className = 'bubble-wrap ' + (isOut ? 'out' : 'in');
+
+    const time = new Date().toTimeString().slice(0, 5);
+    const senderName = !isOut ? `<span class="sender-name">${sender}</span>` : '';
+
+    wrap.innerHTML = `
+        <div class="bubble">
+            ${senderName}
+            ${texto}
+            <span class="time">${time}</span>
+        </div>`;
+
+    area.appendChild(wrap);
+    area.scrollTop = area.scrollHeight;
+}
+
+// Polling cada 1 segundo — trae mensajes nuevos de TODOS incluido yo mismo
+let lastMessageId = {{ $messages->isNotEmpty() ? $messages->last()->id : 0 }};
+
 setInterval(async () => {
     try {
-        const res = await fetch('/chat', { headers: { 'Accept': 'application/json', 'X-CSRF-TOKEN': csrf } });
-        // Simple reload approach — recarga la página silenciosamente si hay mensajes nuevos
-        // Para producción real usar fetch JSON endpoint
-        location.reload();
+        const res = await fetch(`/chat/poll?last_id=${lastMessageId}`, {
+            headers: { 'Accept': 'application/json', 'X-CSRF-TOKEN': csrf }
+        });
+        const data = await res.json();
+
+        data.forEach(msg => {
+            lastMessageId = msg.id;
+            const isOut = msg.user_id === ME;
+            appendBubble(msg.sender, msg.mensaje, isOut);
+        });
     } catch(e) {}
-}, 3000);
+}, 1000);
 </script>
 </body>
 </html>

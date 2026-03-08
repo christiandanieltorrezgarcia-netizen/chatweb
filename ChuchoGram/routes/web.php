@@ -11,6 +11,8 @@ Route::get('/', function () {
         : redirect()->route('login');
 });
 
+Route::get('/chat/poll', [MessageController::class, 'poll'])->middleware('auth');
+
 Route::get('/chat', [MessageController::class, 'index'])->middleware('auth')->name('chat');
 Route::post('/chat', [MessageController::class, 'store'])->middleware('auth');
 
