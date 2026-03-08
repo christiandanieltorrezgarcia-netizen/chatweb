@@ -8,10 +8,10 @@ use Illuminate\Support\Facades\Crypt;
 
 class MessageController extends Controller
 {
-
     public function index()
     {
-        $messages = Message::orderBy('created_at','asc')->get();
+        // Cargar mensajes con el usuario que los envió (eager loading)
+        $messages = Message::with('user')->orderBy('created_at', 'asc')->get();
 
         foreach ($messages as $mensaje) {
             $mensaje->mensaje = Crypt::decryptString($mensaje->mensaje);
@@ -20,18 +20,20 @@ class MessageController extends Controller
         return view('chat', compact('messages'));
     }
 
-
     public function store(Request $request)
     {
-        // CIFRAR MENSAJE
+        $request->validate([
+            'mensaje' => ['required', 'string', 'max:2000'],
+        ]);
+
+        // Cifrar mensaje antes de guardar
         $mensajeCifrado = Crypt::encryptString($request->mensaje);
 
         Message::create([
             'user_id' => auth()->id(),
-            'mensaje' => $mensajeCifrado
+            'mensaje' => $mensajeCifrado,
         ]);
 
         return redirect()->back();
     }
-
 }
