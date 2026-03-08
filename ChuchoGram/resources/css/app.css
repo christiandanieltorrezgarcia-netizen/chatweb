@@ -1,3 +1,93 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ===== ESTILO GENERAL PARA AUTENTICACIÓN ===== */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Tarjeta del formulario */
+.auth-card {
+    background: white;
+    padding: 40px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Título */
+.auth-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Labels */
+.auth-card label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Inputs */
+.auth-card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Efecto al seleccionar input */
+.auth-card input:focus {
+    border-color: #4facfe;
+    box-shadow: 0 0 5px rgba(79,172,254,0.5);
+}
+
+/* Botón */
+.auth-card button {
+    width: 100%;
+    padding: 10px;
+    background: #4facfe;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover botón */
+.auth-card button:hover {
+    background: #00c6ff;
+}
+
+/* Links */
+.auth-links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.auth-links a {
+    color: #4facfe;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.auth-links a:hover {
+    text-decoration: underline;
+}
