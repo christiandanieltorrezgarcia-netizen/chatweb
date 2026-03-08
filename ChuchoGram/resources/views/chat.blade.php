@@ -114,10 +114,9 @@
             Cifrado E2E
         </div>
 
-        <form method="POST" action="{{ route('logout') }}" style="margin:0;">
-            @csrf
-            <button type="submit" class="btn-logout">Salir</button>
-        </form>
+        <a href="{{ route('password.change') }}" class="btn-logout" style="text-decoration:none; margin-right:8px;">
+            🔑 Cambiar contraseña
+        </a>
         <form method="POST" action="{{ route('logout') }}" style="margin:0;">
             @csrf
             <button type="submit" class="btn-logout">Salir</button>
