@@ -175,21 +175,20 @@ input.addEventListener('keydown', function(e) {
 
 document.getElementById('btnSend').addEventListener('click', sendMessage);
 
-async function sendMessage() {
-    const text = input.value.trim();
-    if (!text) return;
-    input.value = '';
-    input.style.height = 'auto';
+    async function sendMessage() {
+        const text = input.value.trim();
+        if (!text) return;
+        input.value = '';
+        input.style.height = 'auto';
 
-    try {
-        await fetch('/chat', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json', 'X-CSRF-TOKEN': csrf },
-            body: JSON.stringify({ mensaje: text })
-        });
-        // El polling lo mostrará en máximo 1 segundo
-    } catch(e) { console.error(e); }
-}
+        try {
+            await fetch('/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json', 'X-CSRF-TOKEN': csrf },
+                body: JSON.stringify({ mensaje: text })
+            });
+        } catch(e) { console.error(e); }
+    }
 
 // Agregar burbuja al DOM
 function appendBubble(sender, texto, isOut) {
