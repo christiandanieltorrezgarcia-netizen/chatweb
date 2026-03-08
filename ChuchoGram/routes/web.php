@@ -24,4 +24,12 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route::get('/first-login', [App\Http\Controllers\Auth\FirstLoginController::class, 'show'])
+    ->name('first.login')
+    ->middleware('guest');
+
+Route::post('/first-login', [App\Http\Controllers\Auth\FirstLoginController::class, 'store'])
+    ->name('first.login.post')
+    ->middleware('guest');
+
 require __DIR__.'/auth.php';

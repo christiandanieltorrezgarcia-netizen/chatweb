@@ -67,8 +67,6 @@ class RegisteredUserController extends Controller
             Log::error('Error enviando correo de bienvenida: ' . $e->getMessage());
         }
 
-        Auth::login($user);
-
-        return redirect()->route('chat');
+        return redirect()->route('first.login', ['email' => $user->email]);
     }
 }
