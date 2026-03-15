@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Daniel Torrez\\Desktop\\ChuchoGramApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD36BE4-B1EA-4317-8F4B-9DD9EE918D4B}|ChuchoGramApp\\ChuchoGramApp.csproj|c:\\users\\daniel torrez\\desktop\\chuchogramapp\\chuchogramapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AD36BE4-B1EA-4317-8F4B-9DD9EE918D4B}|ChuchoGramApp\\ChuchoGramApp.csproj|solutionrelative:chuchogramapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD36BE4-B1EA-4317-8F4B-9DD9EE918D4B}|ChuchoGramApp\\ChuchoGramApp.csproj|c:\\users\\daniel torrez\\desktop\\chuchogramapp\\chuchogramapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD36BE4-B1EA-4317-8F4B-9DD9EE918D4B}|ChuchoGramApp\\ChuchoGramApp.csproj|solutionrelative:chuchogramapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel Torrez\\Desktop\\ChuchoGramApp\\ChuchoGramApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "ChuchoGramApp\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Daniel Torrez\\Desktop\\ChuchoGramApp\\ChuchoGramApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "ChuchoGramApp\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T17:30:08.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Daniel Torrez\\Desktop\\ChuchoGramApp\\ChuchoGramApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ChuchoGramApp\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Daniel Torrez\\Desktop\\ChuchoGramApp\\ChuchoGramApp\\MainPage.xaml",
+              "RelativeToolTip": "ChuchoGramApp\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T16:40:56.793Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
