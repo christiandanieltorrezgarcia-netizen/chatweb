@@ -13,31 +13,33 @@ class PasswordGenerada extends Mailable
 {
     use Queueable, SerializesModels;
 
+<<<<<<< HEAD
     /**
      * Create a new message instance.
      * Recibe el usuario y la contraseña en texto plano para enviarla por correo.
      */
+=======
+>>>>>>> origin/master
     public function __construct(
         public User $user,
         public string $passwordPlano,
     ) {}
 
-    /**
-     * Get the message envelope.
-     */
     public function envelope(): Envelope
     {
         return new Envelope(
+<<<<<<< HEAD
             subject: '🔐 Tu contraseña de Chuchogram',
+=======
+            subject: '🔐 Tu contraseña de ChuchoGram',
+>>>>>>> origin/master
         );
     }
 
-    /**
-     * Get the message content definition.
-     */
     public function content(): Content
     {
         return new Content(
+<<<<<<< HEAD
             view: 'emails.password-generada',
         );
     }
@@ -45,8 +47,18 @@ class PasswordGenerada extends Mailable
     /**
      * Get the attachments for the message.
      */
+=======
+            markdown: 'emails.password-generada',
+        );
+    }
+
+>>>>>>> origin/master
     public function attachments(): array
     {
         return [];
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/master

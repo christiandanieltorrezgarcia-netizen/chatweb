@@ -37,4 +37,6 @@ return [
         ],
     ],
 
+    'ai_user_id' => env('AI_USER_ID', 1),
+
 ];
