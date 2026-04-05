@@ -8,4 +8,5 @@ namespace ChuchoGramApp
     public class MainActivity : MauiAppCompatActivity
     {
     }
+    
 }

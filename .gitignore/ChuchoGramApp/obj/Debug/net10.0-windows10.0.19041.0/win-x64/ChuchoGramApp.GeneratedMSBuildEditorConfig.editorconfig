@@ -14,7 +14,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChuchoGramApp
-build_property.ProjectDir = C:\Users\Daniel Torrez\Desktop\ChuchoGramApp\ChuchoGramApp\
+build_property.ProjectDir = C:\Users\Daniel Torrez\Desktop\ComputacionISC\Segundoparcial\P1\.gitignore\ChuchoGramApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTAotOptimizerEnabled = true
@@ -28,7 +28,7 @@ build_property.CsWinRTUseWindowsUIXamlProjections = false
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Daniel Torrez/Desktop/ChuchoGramApp/ChuchoGramApp/App.xaml]
+[C:/Users/Daniel Torrez/Desktop/ComputacionISC/Segundoparcial/P1/.gitignore/ChuchoGramApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChuchoGramApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
@@ -38,7 +38,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/Daniel Torrez/Desktop/ChuchoGramApp/ChuchoGramApp/AppShell.xaml]
+[C:/Users/Daniel Torrez/Desktop/ComputacionISC/Segundoparcial/P1/.gitignore/ChuchoGramApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChuchoGramApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
@@ -48,7 +48,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/Daniel Torrez/Desktop/ChuchoGramApp/ChuchoGramApp/MainPage.xaml]
+[C:/Users/Daniel Torrez/Desktop/ComputacionISC/Segundoparcial/P1/.gitignore/ChuchoGramApp/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChuchoGramApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
@@ -58,7 +58,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/Daniel Torrez/Desktop/ChuchoGramApp/ChuchoGramApp/Resources/Styles/Colors.xaml]
+[C:/Users/Daniel Torrez/Desktop/ComputacionISC/Segundoparcial/P1/.gitignore/ChuchoGramApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChuchoGramApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
@@ -68,7 +68,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/Daniel Torrez/Desktop/ChuchoGramApp/ChuchoGramApp/Resources/Styles/Styles.xaml]
+[C:/Users/Daniel Torrez/Desktop/ComputacionISC/Segundoparcial/P1/.gitignore/ChuchoGramApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChuchoGramApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

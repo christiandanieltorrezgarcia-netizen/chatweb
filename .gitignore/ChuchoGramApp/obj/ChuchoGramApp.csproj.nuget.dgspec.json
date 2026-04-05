@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel Torrez\\Desktop\\ChuchoGramApp\\ChuchoGramApp\\ChuchoGramApp.csproj": {}
+    "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\ChuchoGramApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel Torrez\\Desktop\\ChuchoGramApp\\ChuchoGramApp\\ChuchoGramApp.csproj": {
+    "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\ChuchoGramApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel Torrez\\Desktop\\ChuchoGramApp\\ChuchoGramApp\\ChuchoGramApp.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\ChuchoGramApp.csproj",
         "projectName": "ChuchoGramApp",
-        "projectPath": "C:\\Users\\Daniel Torrez\\Desktop\\ChuchoGramApp\\ChuchoGramApp\\ChuchoGramApp.csproj",
+        "projectPath": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\ChuchoGramApp.csproj",
         "packagesPath": "C:\\Users\\Daniel Torrez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel Torrez\\Desktop\\ChuchoGramApp\\ChuchoGramApp\\obj\\",
+        "outputPath": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -80,6 +80,10 @@
               "target": "Package",
               "version": "[10.0.3, )",
               "autoReferenced": true
+            },
+            "Plugin.LocalNotification": {
+              "target": "Package",
+              "version": "[13.0.0, )"
             }
           },
           "imports": [
@@ -396,6 +400,10 @@
               "target": "Package",
               "version": "[10.0.3, )",
               "autoReferenced": true
+            },
+            "Plugin.LocalNotification": {
+              "target": "Package",
+              "version": "[13.0.0, )"
             }
           },
           "imports": [
@@ -712,6 +720,10 @@
               "target": "Package",
               "version": "[10.0.3, )",
               "autoReferenced": true
+            },
+            "Plugin.LocalNotification": {
+              "target": "Package",
+              "version": "[13.0.0, )"
             }
           },
           "imports": [
@@ -1023,6 +1035,10 @@
             "Microsoft.Maui.Controls": {
               "target": "Package",
               "version": "[10.0.20, )"
+            },
+            "Plugin.LocalNotification": {
+              "target": "Package",
+              "version": "[13.0.0, )"
             }
           },
           "imports": [
