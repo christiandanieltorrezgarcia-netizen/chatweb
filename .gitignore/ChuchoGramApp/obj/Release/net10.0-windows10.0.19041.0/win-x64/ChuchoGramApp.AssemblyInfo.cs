@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChuchoGramApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1b554c2ee613b34b30e77a990126fa793d5bdf45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3351dedd98a00446951b3a432e37f36b84b3e6f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChuchoGramApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChuchoGramApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

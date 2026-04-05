@@ -3,8 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8342994B-3F8E-4788-B3BB-0D11F51AAF2F}|ChuchoGramApp\\ChuchoGramApp.csproj|c:\\users\\daniel torrez\\desktop\\computacionisc\\segundoparcial\\p1\\.gitignore\\chuchogramapp\\resources\\appicon\\appicon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{8342994B-3F8E-4788-B3BB-0D11F51AAF2F}|ChuchoGramApp\\ChuchoGramApp.csproj|solutionrelative:chuchogramapp\\resources\\appicon\\appicon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.2\\targets\\Microsoft.Android.Sdk.Aot.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.2\\tools\\Xamarin.Android.Aapt2.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8342994B-3F8E-4788-B3BB-0D11F51AAF2F}|ChuchoGramApp\\ChuchoGramApp.csproj|c:\\users\\daniel torrez\\desktop\\computacionisc\\segundoparcial\\p1\\.gitignore\\chuchogramapp\\platforms\\android\\androidmanifest.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
+      "RelativeMoniker": "D:0:0:{8342994B-3F8E-4788-B3BB-0D11F51AAF2F}|ChuchoGramApp\\ChuchoGramApp.csproj|solutionrelative:chuchogramapp\\platforms\\android\\androidmanifest.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8342994B-3F8E-4788-B3BB-0D11F51AAF2F}|ChuchoGramApp\\ChuchoGramApp.csproj|c:\\users\\daniel torrez\\desktop\\computacionisc\\segundoparcial\\p1\\.gitignore\\chuchogramapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -31,19 +37,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appicon.svg",
-              "DocumentMoniker": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\Resources\\AppIcon\\appicon.svg",
-              "RelativeDocumentMoniker": "ChuchoGramApp\\Resources\\AppIcon\\appicon.svg",
-              "ToolTip": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\Resources\\AppIcon\\appicon.svg",
-              "RelativeToolTip": "ChuchoGramApp\\Resources\\AppIcon\\appicon.svg",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQESURBVDhPrZRdbJNVHMZ/b/u26xfUbqPYbd2wIKxsbGDYpk6joISJCuIHRkyMVxpDNBpjQjDRZFfeaFiI3ojGS00MshgvIEQkYyTAnJMs4yPb2Nqt27p17d5\u002B0L7v23O8WDc28JIneXK\u002B/ufJ\u002BZ/znD88SEgplXvnurq6jjc2Nn5UWkdKuRQLgBCCfD5PNpvtPnr06JFoNBpbrXAPurq6hoQQolgs/i9N0xQDAwOir69PnDhx4tdwOLxl5X7rygFAR0fHkba2tkohwdRTiNw1lMwP6DM/Y0z9AcDwhMHOljacTmfIbrfXTE5OXkskEon7BO2tbyr1za1HbuTKKm9N9rLW/A7nzPeYsbOgbEHIIGb8EtFZqNvcis/nU10u16by8vLg9evXL6bT6fSioKLgfmy/r/bF975cE6h9viVss\u002B9efxzv9BkGRrfzm/YxI2WH2da8DzE7RMZwc7F/jP7\u002BfjRNs/p8vvCFCxd\u002BSaVSMRXA0bjXW3fgw8\u002Be21nz/mvbRlw7xeckbubozR7jVugVorqTSyPTZI0xXvc3UN\u002B8kRr86LqOx\u002BNhcHBwOUsLgL/jg/a28Lq3DzVcXtuS\u002B1RZGMgzqXSSW3cQWxbchknthiquzhbpST6CsqaWysoKAoEAXq8Xq9W67AILQF3Ac/Dl\u002BqGKJuMbZa7PwNX0E9seP8ihHQHeaqokMzWLz16G4nbSl7Axl7eUziNhhbUAVICt61JPP\u002BH90ZkZdfCt8QUTf9kwzH8RUiIR5IsqFaoFm93G6GyBZFqnaq0DKQHlrkcB1KqAan\u002B36UyNLTKinLd8Jd0te5SQtLAYTUlUYtzR0XWDgmliSllalsh7PoBl4kbtgc3i97IrmcNyqGJv8cqlm1KOjiNGxigO36Y4fBsxfBslOk51YZ5ngx78HntJbPUvAlClFntjZry6cL64CyMrVbfTZmkPVSo7qt14HSpa3uDyWJJIMgdSEvS58DjUpQQW73EF1PxEvj2ZLfuzd1rdWqum6taHqpWzUznO3ppB6gaqXaXoqSBZdDEfn\u002BcFi4LNcrcELKW8BIu5oDj3HSscjk3PfX1zaDQxPpWWunsN1G5A2fQoheo64lIhHk8Qcpi81Lgeu3Xple\u002BH9dg7\u002BJ95OBm62nujpy5gMzIpo17LCPdEfIHEXIo7iXls6QUaHlL5ZNdGyt12UJRlyyiKQiQS4fTp0yc1TYtZN1RxOTbN7rB95pnqeM9goKbZtefJp\u002Br9tiJbvCqtVW72N/h5dXsVDpu6eIySXQAUi4VIJEp3d/dJTdPuL2WdnZ09QghhGEaJujD0RerLLCy3hmGIc\u002BfOiWAw2MKSsVdCSvn3qVOn2kt9pJQIIVYV2pUE0DTtH2B\u002BtdIDwn\u002B7nChdLXVvTAAAAABJRU5ErkJggg==",
-              "WhenOpened": "2026-04-05T21:10:16.085Z",
+              "Title": "Microsoft.Android.Sdk.Aot.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.2\\targets\\Microsoft.Android.Sdk.Aot.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.2\\targets\\Microsoft.Android.Sdk.Aot.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.2\\targets\\Microsoft.Android.Sdk.Aot.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.2\\targets\\Microsoft.Android.Sdk.Aot.targets",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAswJkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-04-05T21:41:11.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Xamarin.Android.Aapt2.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.2\\tools\\Xamarin.Android.Aapt2.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.2\\tools\\Xamarin.Android.Aapt2.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.2\\tools\\Xamarin.Android.Aapt2.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\36.1.2\\tools\\Xamarin.Android.Aapt2.targets",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAIwNcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-04-05T21:13:55.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "ChuchoGramApp\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "ChuchoGramApp\\Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-04-05T21:13:17.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AndroidManifest.xml",
               "DocumentMoniker": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\Platforms\\Android\\AndroidManifest.xml",
               "RelativeDocumentMoniker": "ChuchoGramApp\\Platforms\\Android\\AndroidManifest.xml",
@@ -54,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "ChuchoGramApp\\MainPage.xaml.cs",
@@ -66,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\MainPage.xaml",
               "RelativeDocumentMoniker": "ChuchoGramApp\\MainPage.xaml",
@@ -74,8 +104,7 @@
               "RelativeToolTip": "ChuchoGramApp\\MainPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-15T16:40:56.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T16:40:56.793Z"
             }
           ]
         }
