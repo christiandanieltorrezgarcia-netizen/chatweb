@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8342994B-3F8E-4788-B3BB-0D11F51AAF2F}|ChuchoGramApp\\ChuchoGramApp.csproj|c:\\users\\daniel torrez\\desktop\\computacionisc\\segundoparcial\\p1\\.gitignore\\chuchogramapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8342994B-3F8E-4788-B3BB-0D11F51AAF2F}|ChuchoGramApp\\ChuchoGramApp.csproj|solutionrelative:chuchogramapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8342994B-3F8E-4788-B3BB-0D11F51AAF2F}|ChuchoGramApp\\ChuchoGramApp.csproj|c:\\users\\daniel torrez\\desktop\\computacionisc\\segundoparcial\\p1\\.gitignore\\chuchogramapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8342994B-3F8E-4788-B3BB-0D11F51AAF2F}|ChuchoGramApp\\ChuchoGramApp.csproj|solutionrelative:chuchogramapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8342994B-3F8E-4788-B3BB-0D11F51AAF2F}|ChuchoGramApp\\ChuchoGramApp.csproj|c:\\users\\daniel torrez\\desktop\\computacionisc\\segundoparcial\\p1\\.gitignore\\chuchogramapp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8342994B-3F8E-4788-B3BB-0D11F51AAF2F}|ChuchoGramApp\\ChuchoGramApp.csproj|solutionrelative:chuchogramapp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8342994B-3F8E-4788-B3BB-0D11F51AAF2F}|ChuchoGramApp\\ChuchoGramApp.csproj|c:\\users\\daniel torrez\\desktop\\computacionisc\\segundoparcial\\p1\\.gitignore\\chuchogramapp\\platforms\\android\\androidmanifest.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
       "RelativeMoniker": "D:0:0:{8342994B-3F8E-4788-B3BB-0D11F51AAF2F}|ChuchoGramApp\\ChuchoGramApp.csproj|solutionrelative:chuchogramapp\\platforms\\android\\androidmanifest.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8342994B-3F8E-4788-B3BB-0D11F51AAF2F}|ChuchoGramApp\\ChuchoGramApp.csproj|c:\\users\\daniel torrez\\desktop\\computacionisc\\segundoparcial\\p1\\.gitignore\\chuchogramapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8342994B-3F8E-4788-B3BB-0D11F51AAF2F}|ChuchoGramApp\\ChuchoGramApp.csproj|solutionrelative:chuchogramapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8342994B-3F8E-4788-B3BB-0D11F51AAF2F}|ChuchoGramApp\\ChuchoGramApp.csproj|c:\\users\\daniel torrez\\desktop\\computacionisc\\segundoparcial\\p1\\.gitignore\\chuchogramapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8342994B-3F8E-4788-B3BB-0D11F51AAF2F}|ChuchoGramApp\\ChuchoGramApp.csproj|solutionrelative:chuchogramapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainApplication.cs",
               "DocumentMoniker": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\Platforms\\Android\\MainApplication.cs",
               "RelativeDocumentMoniker": "ChuchoGramApp\\Platforms\\Android\\MainApplication.cs",
               "ToolTip": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\Platforms\\Android\\MainApplication.cs",
               "RelativeToolTip": "ChuchoGramApp\\Platforms\\Android\\MainApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T04:00:21.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainActivity.cs",
               "DocumentMoniker": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\Platforms\\Android\\MainActivity.cs",
               "RelativeDocumentMoniker": "ChuchoGramApp\\Platforms\\Android\\MainActivity.cs",
@@ -55,12 +55,11 @@
               "RelativeToolTip": "ChuchoGramApp\\Platforms\\Android\\MainActivity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T04:00:18.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T04:00:18.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AndroidManifest.xml",
               "DocumentMoniker": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\Platforms\\Android\\AndroidManifest.xml",
               "RelativeDocumentMoniker": "ChuchoGramApp\\Platforms\\Android\\AndroidManifest.xml",
@@ -68,12 +67,11 @@
               "RelativeToolTip": "ChuchoGramApp\\Platforms\\Android\\AndroidManifest.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-04-05T21:13:17.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-05T21:13:17.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "ChuchoGramApp\\MainPage.xaml.cs",
@@ -86,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Daniel Torrez\\Desktop\\ComputacionISC\\Segundoparcial\\P1\\.gitignore\\ChuchoGramApp\\MainPage.xaml",
               "RelativeDocumentMoniker": "ChuchoGramApp\\MainPage.xaml",
