@@ -4,7 +4,7 @@
              x:Class="ChuchoGramApp.MainPage">
 
     <WebView
-        Source="https://chuchogramhosted-wpf4.onrender.com"
+        Source="chuchogramhosted-wpf4.onrender.com"
         HorizontalOptions="FillAndExpand"
         VerticalOptions="FillAndExpand" />
 

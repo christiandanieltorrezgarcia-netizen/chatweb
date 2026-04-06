@@ -1,4 +1,0 @@
-C:\Users\Daniel Torrez\Desktop\ComputacionISC\Segundoparcial\P1\.gitignore\ChuchoGramApp\bin\Release\net10.0-android\publish\com.companyname.chuchogramapp-Signed.aab
-C:\Users\Daniel Torrez\Desktop\ComputacionISC\Segundoparcial\P1\.gitignore\ChuchoGramApp\bin\Release\net10.0-android\publish\com.companyname.chuchogramapp.aab
-C:\Users\Daniel Torrez\Desktop\ComputacionISC\Segundoparcial\P1\.gitignore\ChuchoGramApp\bin\Release\net10.0-android\publish\com.companyname.chuchogramapp-Signed.apk
-C:\Users\Daniel Torrez\Desktop\ComputacionISC\Segundoparcial\P1\.gitignore\ChuchoGramApp\bin\Release\net10.0-android\publish\_Microsoft.Android.Resource.Designer.dll

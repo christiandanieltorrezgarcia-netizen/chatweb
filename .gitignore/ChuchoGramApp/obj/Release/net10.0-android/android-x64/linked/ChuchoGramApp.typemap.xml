@@ -1,8 +1,0 @@
-<api type="release" assembly-name="ChuchoGramApp" mvid="e03e6888911c47208c0b164a6bd8c1fa">
-  <module assembly-name="ChuchoGramApp" mvid="e03e6888911c47208c0b164a6bd8c1fa" mvid-bytes="iGg+4ByRIEeMCxZKa9jB+g==">
-    <types-scratch>
-      <entry key="crc64aa8c68e9345e2cd6/MainActivity" java-name="crc64aa8c68e9345e2cd6/MainActivity" managed-type-name="ChuchoGramApp.MainActivity" token="33554441" />
-      <entry key="crc64aa8c68e9345e2cd6/MainApplication" java-name="crc64aa8c68e9345e2cd6/MainApplication" managed-type-name="ChuchoGramApp.MainApplication" token="33554442" />
-    </types-scratch>
-  </module>
-</api>
