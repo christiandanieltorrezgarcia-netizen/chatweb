@@ -41,9 +41,16 @@
 
         <div class="auth-links">
             @if (Route::has('password.request'))
+<<<<<<< HEAD
+            <a class="underline text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900"
+            href="{{ route('password.request') }}">
+                ¿Olvidaste tu contraseña?
+            </a>                
+=======
                 <a class="auth-link" href="{{ route('password.request') }}">
                     ¿Olvidaste tu contraseña?
                 </a>
+>>>>>>> origin/master
             @endif
             <a class="auth-link" href="{{ route('register') }}">
                 Crear cuenta →

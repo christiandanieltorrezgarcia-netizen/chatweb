@@ -4,16 +4,24 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Message;
+<<<<<<< HEAD
+use App\Services\OpenRouterService;
+=======
 use App\Services\GeminiAIService;
+>>>>>>> origin/master
 use Illuminate\Support\Facades\Crypt;
 
 class MessageController extends Controller
 {
     public function index()
     {
+<<<<<<< HEAD
+        $messages = Message::with('user')->orderBy('created_at', 'asc')->get();
+=======
         $messages = Message::with('user')
             ->orderBy('created_at', 'asc')
             ->get();
+>>>>>>> origin/master
 
         foreach ($messages as $msg) {
             if ($msg->mensaje) {
@@ -27,6 +35,28 @@ class MessageController extends Controller
     public function store(Request $request)
     {
         $request->validate([
+<<<<<<< HEAD
+            'mensaje' => ['required', 'string', 'max:2000'],
+        ]);
+
+        $aiUserId = (int) config('services.ai_user_id');
+        $texto    = $request->mensaje;
+
+        // Guardar mensaje del usuario
+        Message::create([
+            'user_id' => auth()->id(),
+            'mensaje' => Crypt::encryptString($texto),
+        ]);
+
+        // Detectar si el mensaje empieza con @chuchogram
+        if (str_starts_with(strtolower(trim($texto)), '@chuchogram')) {
+            // Extraer solo la pregunta sin el @chuchogram
+            $pregunta = trim(substr($texto, strlen('@chuchogram')));
+
+            if ($pregunta) {
+                $ai       = new OpenRouterService();
+                $respuesta = $ai->chat($pregunta);
+=======
             'mensaje' => ['nullable', 'string', 'max:2000'],
             'file'    => ['nullable', 'file', 'max:51200', 'mimes:jpg,jpeg,png,gif,webp,mp3,ogg,wav,mp4,webm'],
         ]);
@@ -76,6 +106,7 @@ class MessageController extends Controller
                 $ai        = new GeminiAIService();
                 $respuesta = $ai->chat($pregunta);
                 $aiUserId  = (int) config('services.ai_user_id');
+>>>>>>> origin/master
 
                 Message::create([
                     'user_id' => $aiUserId,
@@ -97,6 +128,12 @@ class MessageController extends Controller
             ->get()
             ->map(function ($msg) {
                 return [
+<<<<<<< HEAD
+                    'id'      => $msg->id,
+                    'user_id' => $msg->user_id,
+                    'sender'  => $msg->user->name ?? 'Usuario',
+                    'mensaje' => Crypt::decryptString($msg->mensaje),
+=======
                     'id'        => $msg->id,
                     'user_id'   => $msg->user_id,
                     'sender'    => $msg->user->name ?? 'Usuario',
@@ -104,6 +141,7 @@ class MessageController extends Controller
                     'file_path' => $msg->file_path ? asset('storage/' . $msg->file_path) : null,
                     'file_type' => $msg->file_type,
                     'file_name' => $msg->file_name,
+>>>>>>> origin/master
                 ];
             });
 

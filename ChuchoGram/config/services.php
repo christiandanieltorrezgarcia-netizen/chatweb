@@ -14,6 +14,8 @@ return [
     |
     */
 
+    'ai_user_id' => env('AI_USER_ID'),
+
     'postmark' => [
         'key' => env('POSTMARK_API_KEY'),
     ],
